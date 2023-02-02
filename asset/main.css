@@ -1,0 +1,80 @@
+body {
+  background-image: radial-gradient(green, black);
+  margin: 0;
+  height: 20%;
+}
+
+section {
+  font-size: 30px;
+  text-align:center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  color: rgb(179, 10, 10);
+  letter-spacing: 1em;
+}
+
+nav ul {
+  margin:auto;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 1px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url(/asset/images/img4.jpg);
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+}
+
+.cta {
+  max-width: 50ch;
+  border: 20px black;
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: rgb(12, 12, 12);
+  text-decoration: none;
+  color: #292820;
+}
+
+a {
+  text-decoration: none;
+  color: #7CA378;
+  display: block;
+  padding: 2em;
+}
+
+ a:visited {
+  text-decoration: none;
+  display: block;
+  background-color: rgb(179, 10, 10);
+  margin: auto;
+  max-width: 40ch;
+} 
+
+a:hover {
+  background-color: rgb(179, 10, 10);
+  color: white;
+  
+}
+
+footer {
+  display: flex;
+  justify-content:center;
+  color: white;
+  margin:0;
+  height: 200%;
+  padding: 3em;
+}
+
+
+@media screen and (min-width:40em) {
+}
